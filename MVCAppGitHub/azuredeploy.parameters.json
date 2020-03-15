@@ -1,5 +1,48 @@
 {
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
-  "parameters": {}
+  "parameters": {
+    "subscriptionId": {
+      "value": "141eca19-7964-4488-9582-87e2af8c3705"
+    },
+    "name": {
+      "value": "AzureDevOpsMVCAppTest"
+    },
+    "location": {
+      "value": "Central US"
+    },
+    "hostingEnvironment": {
+      "value": ""
+    },
+    "hostingPlanName": {
+      "value": "freeAppServiceNewPlan"
+    },
+    "serverFarmResourceGroup": {
+      "value": "CommonRG"
+    },
+    "alwaysOn": {
+      "value": false
+    },
+    "sku": {
+      "value": "Free"
+    },
+    "skuCode": {
+      "value": "F1"
+    },
+    "workerSize": {
+      "value": "0"
+    },
+    "workerSizeId": {
+      "value": "0"
+    },
+    "numberOfWorkers": {
+      "value": "1"
+    },
+    "currentStack": {
+      "value": "dotnetcore"
+    },
+    "errorLink": {
+      "value": "https://AzureDevOpsMVCAppTest.scm.azurewebsites.net/detectors?type=tools&name=eventviewer"
+    }
+  }
 }
